@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.display-4{
+  font-weight: bold;
+}
+.App-header {
+  background-color: #2b4e8f;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CreateBook {
+  background-color: #f7efef;
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowBookDetails {
+  background-color: #f7efef;
+  min-height: 100vh;
+  color: white;
+}
+
+.UpdateBookInfo {
+  background-color: #f7efef;
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowBookList {
+  background-color: #f7efef;
+  /* background-image: url(./image/bg3.jpg); */
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: rgb(28, 24, 24);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lead{
+  font-size: 3em;
+  font-weight: bold;
+}
+/* BookList Styles */
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0.125);
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  border-width: 2px;
+  box-shadow: 10px 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.desc {
+  height: 130px;
+  padding: 10px;
+}
+
+.desc h2 {
+  font-size: 1em;
+  font-weight: 400;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  margin: 1px;
+}
+img {
+  height: 200px;
+  width: 250px;
+}
+.desc h3,
+p {
+  font-weight: 300;
+  color: #131d26;
+}
+
+.desc h3 {
+  color: #6c757d;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+}
+.brand{
+  text-align: center;
+}
+
